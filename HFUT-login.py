@@ -34,6 +34,7 @@ if __name__ == '__main__':
 
     #login = driver.find_element_by_xpath('//*[@id="edit_body"]/div[2]/div[2]/form').text
     login = 'aa'
+    # 210.45.240.105 好像没有注销界面
 
     if login[0]=="已":
         print("已登录")
